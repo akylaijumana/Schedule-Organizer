@@ -1,0 +1,85 @@
+#include <iostream>
+#include <map>
+#include <string>
+using namespace std;
+// Function to add an exam date and time
+void addExam(map<string, string> &exams) {
+    string subject, date;
+    cout << "Subject: ";
+    cin >> subject;
+    cout << "Exam date and time:";
+    cin >> date;
+    exams[subject] = date;
+    cout << "Exam added successfully!" << endl;
+}
+// Function to update an exam date and time
+void updateExam(map<string, string> &exams) {
+    string subject, date;
+    cout << "Subject to update: ";
+    cin >> subject;
+    if (exams.find(subject) != exams.end()) {
+        cout << " New exam date and time : ";
+        cin >> date;
+        exams[subject] = date;
+        cout << "Exam updated successfully!" << endl;
+    } else {
+        cout << "Exam not found!" << endl;
+    }
+}
+// Function to remove an exam
+void removeExam(map<string, string> &exams) {
+    string subject;
+    cout << "Enter subject to remove: ";
+    cin >> subject;
+    if (exams.find(subject) != exams.end()) {
+        exams.erase(subject);
+        cout << "Exam removed successfully!" << endl;
+    } else {
+        cout << "Exam not found!" << endl;
+    }
+}
+// Function to display all exams
+void displayExams(const map<string, string> &exams) {
+    cout << "Subject\t\tExam Date and Time" << endl;
+    cout << "---------------------------------------" << endl;
+    for (const auto &exam : exams) {
+        cout << exam.first << "\t\t" << exam.second << endl;
+    }
+    cout << "---------------------------------------" << endl;
+}
+int main() {
+    map<string, string> exams;
+    int choice;
+    
+    do {
+        cout << "\nExam Organizer Menu:" << endl;
+        cout << "1. Add Exam" << endl;
+        cout << "2. Update Exam" << endl;
+        cout << "3. Remove Exam" << endl;
+        cout << "4. View All Exams" << endl;
+        cout << "5. Exit" << endl;
+        cout << "Enter your choice: ";
+        cin >> choice;
+        
+        switch(choice) {
+            case 1:
+                addExam(exams);
+                break;
+            case 2:
+                updateExam(exams);
+                break;
+            case 3:
+                removeExam(exams);
+                break;
+            case 4:
+                displayExams(exams);
+                break;
+            case 5:
+                cout << "Exiting program..." << endl;
+                break;
+            default:
+                cout << "Invalid choice.." << endl;
+        }
+    } while (choice != 5);
+    return 0;
+}
