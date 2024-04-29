@@ -1,31 +1,32 @@
-#include <iostream>
-#include <map>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
-// Function to add an exam date and time
+
+// Function to add an exam
 void addExam(map<string, string> &exams) {
-    string subject, date;
-    cout << "Subject: ";
+    string subject, date, time;
+    cout << "Enter subject: ";
     cin >> subject;
-    cout << "Exam date and time:";
-    cin >> date;
-    exams[subject] = date;
+    cout << "Enter date and time (MM/DD/YYYY HH:MM): ";
+    cin >> date >> time;
+    exams[subject] = date + " " + time;
     cout << "Exam added successfully!" << endl;
 }
-// Function to update an exam date and time
+
+// Function to update an exam
 void updateExam(map<string, string> &exams) {
-    string subject, date;
-    cout << "Subject to update: ";
+    string subject, date, time;
+    cout << "Enter subject to update: ";
     cin >> subject;
     if (exams.find(subject) != exams.end()) {
-        cout << " New exam date and time : ";
-        cin >> date;
-        exams[subject] = date;
+        cout << "Enter new date and time (MM/DD/YYYY HH:MM): ";
+        cin >> date >> time;
+        exams[subject] = date + " " + time;
         cout << "Exam updated successfully!" << endl;
     } else {
         cout << "Exam not found!" << endl;
     }
 }
+
 // Function to remove an exam
 void removeExam(map<string, string> &exams) {
     string subject;
@@ -38,6 +39,7 @@ void removeExam(map<string, string> &exams) {
         cout << "Exam not found!" << endl;
     }
 }
+
 // Function to display all exams
 void displayExams(const map<string, string> &exams) {
     cout << "Subject\t\tExam Date and Time" << endl;
@@ -47,6 +49,7 @@ void displayExams(const map<string, string> &exams) {
     }
     cout << "---------------------------------------" << endl;
 }
+
 int main() {
     map<string, string> exams;
     int choice;
@@ -81,5 +84,6 @@ int main() {
                 cout << "Invalid choice.." << endl;
         }
     } while (choice != 5);
+    
     return 0;
 }
