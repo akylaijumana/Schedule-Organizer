@@ -55,7 +55,8 @@ int main() {
     int choice;
     
     do {
-        cout << "\nExam Organizer Menu:" << endl;
+        cout<<endl;
+        cout << "Exam Organizer Menu:" << endl;
         cout << "1. Add Exam" << endl;
         cout << "2. Update Exam" << endl;
         cout << "3. Remove Exam" << endl;
@@ -64,24 +65,18 @@ int main() {
         cout << "Enter your choice: ";
         cin >> choice;
         
-        switch(choice) {
-            case 1:
-                addExam(exams);
-                break;
-            case 2:
-                updateExam(exams);
-                break;
-            case 3:
-                removeExam(exams);
-                break;
-            case 4:
-                displayExams(exams);
-                break;
-            case 5:
-                cout << "Exiting program..." << endl;
-                break;
-            default:
-                cout << "Invalid choice.." << endl;
+        if (choice == 1) {
+            addExam(exams);
+        } else if (choice == 2) {
+            updateExam(exams);
+        } else if (choice == 3) {
+            removeExam(exams);
+        } else if (choice == 4) {
+            displayExams(exams);
+        } else if (choice == 5) {
+            cout << "Exiting program..." << endl;
+        } else {
+            cout << "Invalid choice.." << endl;
         }
     } while (choice != 5);
     
