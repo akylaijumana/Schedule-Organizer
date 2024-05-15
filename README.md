@@ -1,22 +1,29 @@
- Schedule Organizer
+# Schedule Organizer
 
-Description: The Schedule Organizer is a C++ program designed to help users manage their schedules effectively. Users can add, update, remove, and view their exams along with their respective dates and times. The program provides a simple menu-based interface for seamless interaction.
+## Purpose
+The Schedule Organizer is a C++ program designed to help users manage their schedules effectively, particularly focusing on organizing exam dates and times. It offers functionalities for adding, updating, removing, and viewing exams, providing users with a streamlined approach to managing their academic commitments.
 
-Features:
+## Design Decisions
+- **Modular Structure:** The codebase is organized into separate functions for each operation to enhance readability and maintainability.
+- **Input Validation:** Input validation is implemented to ensure that users provide valid inputs, such as correct date and time formats, and that the entered subject is not empty.
+- **User-Friendly Interface:** The program presents a simple menu-based interface for users to interact with, ensuring ease of use and navigation.
 
-Add Exam: Users can add exams by providing the subject, date, and time.
-Update Exam: Users can update existing exams by specifying the subject and providing a new date and time.
-Remove Exam: Users can remove exams by specifying the subject.
-View All Exams: Users can view all their exams along with their dates and times.
-Exit Option: Users can exit the program at any time.
+## Algorithms Used
+No specific algorithms are used in this program. Operations are primarily performed using standard C++ functionalities and data structures.
 
-Menu Options:
+## Data Structures Employed
+The main data structure used in the program is the `std::map`, which stores exams mapped to their respective subjects. This allows for efficient storage and retrieval of exam information.
 
-1) Add Exam (1): Enter the subject, date (MM/DD/YYYY), and time (HH:MM) to add an exam.
-2) Update Exam (2): Enter the subject to update, then provide the new date and time to update an exam.
-3) Remove Exam (3): Enter the subject to remove an exam from the schedule.
-4) View All Exams (4): Display all exams along with their dates and times.
-5) Exit (0): Enter '0' to exit the program.
+## Functions/Modules Created
+1. `addExam(map<string, string> &exams)`: Adds a new exam to the list of exams.
+2. `updateExam(map<string, string> &exams)`: Updates an existing exam's date and time.
+3. `removeExam(map<string, string> &exams)`: Removes an exam from the list of exams.
+4. `displayExams(const map<string, string> &exams)`: Displays all exams along with their dates and times.
+
+## How to Use the Software
+### Compilation and Setup
+1. Clone the repository:
+
 
 Screenshots:
 
