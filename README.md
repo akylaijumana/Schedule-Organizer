@@ -36,5 +36,28 @@ Screenshots:
 ![image](https://github.com/akylaijumana/Schedule-Organizer/assets/150505438/7051c0e1-77d4-4b33-9710-2a50d7ffb392)
 ![photo_2024-05-15_14-28-33](https://github.com/akylaijumana/Schedule-Organizer/assets/150505438/0bed16d5-dc6c-45df-b399-05ee6890baac)
 ## Test Files
-''' jtftfyufyu'''
+
+### Menu Options
+- **Add Exam (1):** Allows the user to add a new exam by providing the subject, date, and time.
+- **Update Exam (2):** Enables the user to update an existing exam's date and time by specifying the subject.
+- **Remove Exam (3):** Allows the user to remove an exam from the list by specifying the subject.
+- **View All Exams (4):** Displays all exams along with their dates and times.
+- **Exit (5):** Exits the program.
+
+## Screenshots
+1. **Main Menu**
+![Main Menu](screenshots/main_menu.png)
+
+2. **Adding an Exam**
+![Adding an Exam](screenshots/add_exam.png)
+
+3. **Updating an Exam**
+![Updating an Exam](screenshots/update_exam.png)
+
+4. **Removing an Exam**
+![Removing an Exam](screenshots/remove_exam.png)
+
+5. **Viewing All Exams**
+![Viewing All Exams](screenshots/view_exams.png)
+
 
