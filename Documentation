@@ -37,6 +37,7 @@ Exit (5): Exits the program.
 Installation and Setup Instructions:
 
 Clone the Repository:
+[GitHub](h)
 git clone https://github.com/akylaijumana/Schedule-Organizer.git
 Compile the Source Code:
 g++ exam_organizer.cpp -o exam_organizer
