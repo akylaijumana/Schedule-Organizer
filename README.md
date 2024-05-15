@@ -1,6 +1,7 @@
  Schedule Organizer
 
 Description: The Schedule Organizer is a C++ program designed to help users manage their schedules effectively. Users can add, update, remove, and view their exams along with their respective dates and times. The program provides a simple menu-based interface for seamless interaction.
+![photo_2024-05-15_14-28-33](https://github.com/akylaijumana/Schedule-Organizer/assets/150505438/0bed16d5-dc6c-45df-b399-05ee6890baac)
 
 Features:
 
