@@ -20,9 +20,14 @@ The main data structure used in the program is the `std::map`, which stores exam
 3. `removeExam(map<string, string> &exams)`: Removes an exam from the list of exams.
 4. `displayExams(const map<string, string> &exams)`: Displays all exams along with their dates and times.
 
-## How to Use the Software
-### Compilation and Setup
-1. Clone the repository:
+## How to Use the Program
+
+### Menu Options
+- **Add Exam (1):** Allows the user to add a new exam by providing the subject, date, and time.
+- **Update Exam (2):** Enables the user to update an existing exam's date and time by specifying the subject.
+- **Remove Exam (3):** Allows the user to remove an exam from the list by specifying the subject.
+- **View All Exams (4):** Displays all exams along with their dates and times.
+- **Exit (5):** Exits the program.
 
 
 Screenshots:
