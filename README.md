@@ -37,7 +37,7 @@ Screenshots:
 ![photo_2024-05-15_14-28-33](https://github.com/akylaijumana/Schedule-Organizer/assets/150505438/0bed16d5-dc6c-45df-b399-05ee6890baac)
 ### How to use it?
 
-## adding exam 
+## adding exam :
 ```
 Exam Organizer Menu:
 1. Add Exam
@@ -48,6 +48,46 @@ Exam Organizer Menu:
 Enter your choice: 1
 Enter subject: history
 Enter date and time (DD/MM/YYYY HH:MM): 01/5/2024 12:00
+```
+## updating exam :
+```
+Exam Organizer Menu:
+1. Add Exam
+2. Update Exam
+3. Remove Exam
+4. View All Exams
+5. Exit
+Enter your choice: 2
+Enter subject to update: history
+Enter new date and time (DD/MM/YYYY HH:MM): 14/5/2024 13:30
+Exam updated successfully!
+```
+## removing exam:
+```
+Exam Organizer Menu:
+1. Add Exam
+2. Update Exam
+3. Remove Exam
+4. View All Exams
+5. Exit
+Enter your choice: 3
+Enter subject to remove: history
+Exam removed successfully!
+
+```
+## displaying all exams :
+ ```
+Exam Organizer Menu:
+1. Add Exam
+2. Update Exam
+3. Remove Exam
+4. View All Exams
+5. Exit
+Enter your choice: 4
+Subject         Exam Date and Time
+---------------------------------------
+history            14/5/2024 13:30
+---------------------------------------
 ```
 
 
