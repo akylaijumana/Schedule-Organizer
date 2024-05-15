@@ -1,46 +1,25 @@
+# Exam Organizer
 
-Documentation
+## Purpose
+The Exam Organizer is a C++ program designed to help users manage their exam schedules efficiently. It provides functionalities for adding, updating, removing, and viewing exams, allowing users to stay organized and prepared for their exams.
 
-Purpose:
-The Exam Organizer is designed to help users manage their exam schedules efficiently. It offers functionalities for adding, updating, and removing exams, along with viewing all exams in a structured manner. The primary purpose is to assist users in organizing their academic commitments effectively.
+## Design Decisions
+- **Modular Structure:** The codebase is structured into separate functions for each operation to enhance readability and maintainability.
+- **Input Validation:** Input validation is implemented to ensure that users provide valid inputs, such as correct date and time formats, and that the entered subject is not empty.
+- **User-Friendly Interface:** The program presents a simple menu-based interface for users to interact with, ensuring ease of use and navigation.
 
-Design Decisions:
-
-Modular Structure: The codebase is structured into separate functions for each operation (adding, updating, removing, and displaying exams). This modular design enhances readability and maintainability.
-Input Validation: Input validation is implemented to ensure that users provide valid inputs, such as correct date and time formats, and that the entered subject is not empty.
-User-Friendly Interface: The program presents a simple menu-based interface for users to interact with. This approach ensures ease of use and navigation within the application.
-Algorithms Used:
+## Algorithms Used
 No specific algorithms are used in this program. Operations are primarily performed using standard C++ functionalities and data structures.
 
-Data Structures Employed:
-The main data structure used in the program is the std::map, which stores exams mapped to their respective subjects. This allows for efficient storage and retrieval of exam information.
+## Data Structures Employed
+The main data structure used in the program is the `std::map`, which stores exams mapped to their respective subjects. This allows for efficient storage and retrieval of exam information.
 
-Functions/Modules Created:
+## Functions/Modules Created
+1. `addExam(map<string, string> &exams)`: Adds a new exam to the list of exams.
+2. `updateExam(map<string, string> &exams)`: Updates an existing exam's date and time.
+3. `removeExam(map<string, string> &exams)`: Removes an exam from the list of exams.
+4. `displayExams(const map<string, string> &exams)`: Displays all exams along with their dates and times.
 
-addExam(map<string, string> &exams): Adds a new exam to the list of exams.
-updateExam(map<string, string> &exams): Updates an existing exam's date and time.
-removeExam(map<string, string> &exams): Removes an exam from the list of exams.
-displayExams(const map<string, string> &exams): Displays all exams along with their dates and times.
-How to Use the Software:
-Compilation and Setup:
-
-Clone the repository containing the source code.
-Compile the source code using a C++ compiler (e.g., g++).
-Running the Program:
-Execute the compiled program.
-Menu Options:
-Add Exam (1): Allows the user to add a new exam by providing the subject, date, and time.
-Update Exam (2): Enables the user to update an existing exam's date and time by specifying the subject.
-Remove Exam (3): Allows the user to remove an exam from the list by specifying the subject.
-View All Exams (4): Displays all exams along with their dates and times.
-Exit (5): Exits the program.
-Installation and Setup Instructions:
-
-Clone the Repository:
-[GitHub](h)
-git clone https://github.com/akylaijumana/Schedule-Organizer.git
-Compile the Source Code:
-g++ exam_organizer.cpp -o exam_organizer
-Run the Program:
-./exam_organizer
-
+## How to Use the Software
+### Compilation and Setup
+1. Clone the repository:
