@@ -72,7 +72,7 @@ int main() {
         } else if (choice == 3) {
             removeExam(exams);
         } else if (choice == 4) {
-            displayExams(exams);
+            viewExams(exams);
         } else if (choice == 5) {
             cout << "Exiting program..." << endl;
         } else {
