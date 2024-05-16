@@ -1,7 +1,7 @@
 # Schedule Organizer
 
 ## Purpose
-The Schedule Organizer is a C++ program designed to help users manage their schedules effectively, particularly focusing on organizing exam dates and times. It offers functionalities for adding, updating, removing, and viewing exams, providing users with a streamlined approach to managing their academic commitments.
+The Schedule Organizer is a C++ program designed to help users manage their schedules effectively, particularly focusing on organizing exam dates and times. It offers functionalities for adding, updating, removing, and displaying exams, providing users with a streamlined approach to managing their academic commitments.
 
 ## Design Decisions
 - **Modular Structure:** The codebase is organized into separate functions for each operation to enhance readability and maintainability.
@@ -26,7 +26,7 @@ The main data structure used in the program is the `std::map`, which stores exam
 - **Add Exam (1):** Allows the user to add a new exam by providing the subject, date, and time.
 - **Update Exam (2):** Enables the user to update an existing exam's date and time by specifying the subject.
 - **Remove Exam (3):** Allows the user to remove an exam from the list by specifying the subject.
-- **View All Exams (4):** Displays all exams along with their dates and times.
+- **Display All Exams (4):** Displays all exams along with their dates and times.
 - **Exit (5):** Exits the program.
 
 
