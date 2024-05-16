@@ -41,7 +41,7 @@ void removeExam(map<string, string> &exams) {
 }
 
 // Function to display all exams
-void displayExams(const map<string, string> &exams) {
+void viewExams(const map<string, string> &exams) {
     cout << "Subject\t\tExam Date and Time" << endl;
     cout << "---------------------------------------" << endl;
     for (const auto &exam : exams) {
