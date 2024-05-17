@@ -17,7 +17,7 @@ No specific algorithms are used in this program. Operations are primarily perfor
 ## Data Structures Employed
 The main data structure used in the program is the `std::map`, which stores exams mapped to their respective subjects. This allows for efficient storage and retrieval of exam information.
 
-## Functions/Modules Created
+## Features
 1. `addExam(map<string, string> &exams)`: Adds a new exam to the list of exams.
 2. `updateExam(map<string, string> &exams)`: Updates an existing exam's date and time.
 3. `removeExam(map<string, string> &exams)`: Removes an exam from the list of exams.
