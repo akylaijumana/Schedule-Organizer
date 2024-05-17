@@ -1,4 +1,4 @@
-# Schedule Organizer
+# Schedule Organizer For Exams
 
 [Presentation ](https://www.canva.com/design/DAGEAkslc2M/-xv8ZPI0yLjnGEujPnRYCg/view?utm_content=DAGEAkslc2M&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
