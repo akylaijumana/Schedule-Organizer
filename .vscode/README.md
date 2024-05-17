@@ -2,12 +2,6 @@
 
 [Presentation ](https://www.canva.com/design/DAGEAkslc2M/-xv8ZPI0yLjnGEujPnRYCg/view?utm_content=DAGEAkslc2M&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
-## Purpose
-The Schedule Organizer is a C++ program designed to help users manage their schedules effectively, particularly focusing on organizing exam dates a)](https://www.canva.com/design/DAGEAkslc2M/-xv8ZPI0yLjnGEujPnRYCg/view?utm_content=DAGEAkslc2M&utm_campaign=designshare&utm_medium=link&utm_source=editor#4
-
-## Purpose
-The Schedule Organizer is a C++ program designed to help users manage their schedules effectively, particularly focusing on organizing exam dates a))
-https://www.canva.com/design/DAGEAkslc2M/-xv8ZPI0yLjnGEujPnRYCg/view?utm_content=DAGEAkslc2M&utm_campaign=designshare&utm_medium=link&utm_source=editor#4
 
 ## Purpose
 The Schedule Organizer is a C++ program designed to help users manage their schedules effectively, particularly focusing on organizing exam dates and times. It offers functionalities for adding, updating, removing, and displaying exams, providing users with a streamlined approach to managing their academic commitments.
