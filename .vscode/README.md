@@ -1,4 +1,7 @@
-# Schedule Organizer
+# Schedule Organizer For Exams
+
+[Presentation ](https://www.canva.com/design/DAGEAkslc2M/-xv8ZPI0yLjnGEujPnRYCg/view?utm_content=DAGEAkslc2M&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 
 ## Purpose
 The Schedule Organizer is a C++ program designed to help users manage their schedules effectively, particularly focusing on organizing exam dates and times. It offers functionalities for adding, updating, removing, and displaying exams, providing users with a streamlined approach to managing their academic commitments.
@@ -14,7 +17,7 @@ No specific algorithms are used in this program. Operations are primarily perfor
 ## Data Structures Employed
 The main data structure used in the program is the `std::map`, which stores exams mapped to their respective subjects. This allows for efficient storage and retrieval of exam information.
 
-## Functions/Modules Created
+## Features
 1. `addExam(map<string, string> &exams)`: Adds a new exam to the list of exams.
 2. `updateExam(map<string, string> &exams)`: Updates an existing exam's date and time.
 3. `removeExam(map<string, string> &exams)`: Removes an exam from the list of exams.
